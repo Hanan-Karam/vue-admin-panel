@@ -1,0 +1,20 @@
+{
+  "name": "admin-panel",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "apexcharts": "^3.35.3",
+    "font-awesome": "^4.7.0",
+    "vue": "^3.2.37",
+    "vue-apexcharts": "^1.6.2",
+    "wave-ui": "^2.31.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.12"
+  }
+}
