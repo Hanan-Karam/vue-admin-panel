@@ -28,7 +28,9 @@
 <style>
     .referals-container{
         background-color: white;
-        /* width:250px; */
+        width:30%;
+        height: 90%;
+        margin: auto;
         padding:20px;
         border-radius: 10px;
     }

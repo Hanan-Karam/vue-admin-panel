@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "apexcharts": "^3.35.3",
+    "chart.js": "^3.8.0",
     "font-awesome": "^4.7.0",
     "vue": "^3.2.37",
     "vue-apexcharts": "^1.6.2",
+    "vue-chartjs": "^4.1.1",
     "wave-ui": "^2.31.1"
   },
   "devDependencies": {

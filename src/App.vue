@@ -69,9 +69,10 @@ body{
   padding-right: 30px;
 }
 .middle--bottom{
-  margin-top: 30px;
+  width:95%;
+  margin: 30px auto 0;
   display: flex;
-  gap:20px;
+  gap:30px;
 }
 .middle{
   margin:0 30px 30px 30px;

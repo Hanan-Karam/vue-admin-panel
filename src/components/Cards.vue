@@ -27,13 +27,14 @@ export default{
 </script>
 <style>
     .cards-container{
+        width:95%;
+        margin:auto;
         display: flex;
         gap: 20px;
-        margin: 30px 0;
+        margin-bottom: 30px;
     }
     .solo-card{
         background-color: white;
-        width:200px;
         padding: 15px;
         border-radius: 10px;
         display: grid;

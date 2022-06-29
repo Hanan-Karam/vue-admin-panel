@@ -110,10 +110,13 @@
     .draft{
         flex-direction: column;
         font-size: 14px;
-        margin-top: 30px;
+        justify-content: center;
         background: #ecf0f9;
         padding: 20px 10px;
         border-radius: 10px;
+        height: 280px;
+        margin: auto;
+        margin-top: 30px;
     }
     .draft i{
         color:var(--light-blue);
@@ -135,9 +138,6 @@
     hr{
         color:var(--menue-text);
         width:80%;
-        margin: auto;
+        margin: 20px auto;
     }
-
-
-
 </style>

@@ -11,8 +11,8 @@
 </template>
 <style>
     #search{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        width:95%;
+        margin: 30px auto;
         border-radius: 7px;
         color:var(--menue-text);
     }
