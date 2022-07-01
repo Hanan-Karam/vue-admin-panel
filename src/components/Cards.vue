@@ -1,6 +1,6 @@
 <template>
     <div class="cards-container">
-        <div v-for="card in cards">
+        <div v-for="card in cards" :key="card.title">
             <div class="solo-card">
                 <div class="text" >
                     <h3>{{card.num}}</h3>

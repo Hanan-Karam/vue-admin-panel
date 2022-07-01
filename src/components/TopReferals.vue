@@ -4,7 +4,7 @@
             <h3>Top Referals</h3>
             <h4>View All</h4>
         </div>
-        <div class="referal" v-for="referal in referals">
+        <div class="referal" v-for="referal in referals" :key="referal.name">
             <i :class="referal.icon" :id="referal.color"></i>
             <p>{{referal.name}}</p>
             <p>{{referal.value}}</p>

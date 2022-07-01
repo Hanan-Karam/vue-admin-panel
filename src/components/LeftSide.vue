@@ -6,7 +6,7 @@
         </div>
         <div class="menu">
             <ul>
-                <li v-for="item in items">
+                <li v-for="item in items" :key="item.title">
                     <i :class="item.icon" aria-hidden="true"></i>
                     <span>{{item.title}}</span>
                 </li>
